@@ -6,5 +6,6 @@
 /trigger rtp
 
 # Making changes
+Making changes is rather easy, and i will guide through changing anything necessary.
 ## RTP Radius
 To change the radius of the rtp go into /
