@@ -4,3 +4,7 @@
 
 # Commands
 /trigger rtp
+
+# Making changes
+## RTP Radius
+To change the radius of the rtp go into /
