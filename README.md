@@ -13,4 +13,4 @@ To change the radius of the rtp go into data/asu/functions/rtp/rtp_passed.mcfunc
 ### Teleport Message
 You can change the teleporting message in the file rtp_passed.mcfunction on line 1. '"Teleporting to the Wilderness. Please wait.."' can be changed to any message you wish.
 ### Teleport Cooldown
-You can also change to cooldown interval in rtp_passed.mcfunction on line 3 'scoreboard players set @s timer 3600'. 120 is the time in ticks. Change this to whatever. 20 ticks = 1 second / 3600 ticks = 30 minutes.
+You can also change to cooldown interval in rtp_passed.mcfunction on line 3 'scoreboard players set @s timer 36000'. 120 is the time in ticks. Change this to whatever. 20 ticks = 1 second / 36000 ticks = 30 minutes.
