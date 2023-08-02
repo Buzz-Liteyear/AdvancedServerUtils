@@ -3,10 +3,15 @@
 
 # Commands
 /trigger rtp
-
+/trigger spawn
 
 # Making changes
 Making changes is rather easy, and i will guide through changing anything necessary.
+
+## Spawn
+### Teleport Message
+To change the message when teleporting to spawn head over to data/asu/functions/spawn/spawn.mcfunction on line 1 'tellraw @p ["",{"text":"Teleporting to","bold":true,"color":"dark_green"},{"text":" Spawn","bold":true,"italic":true,"color":"gold"},{"text":". Please wait...","bold":true,"color":"dark_green"}]` you can change any of the text: messages such as "Teleporting to", " Spawn", or ". Please wait..." along with the colors following them.
+
 ## RTP
 ### Teleport Radius
 To change the radius of the rtp go into data/asu/functions/rtp/rtp_passed.mcfunction. on line 2 'spreadplayers 0 0 0 10000 false @s' 10000 is the radius. Change this number to whatever you want.
