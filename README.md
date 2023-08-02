@@ -3,6 +3,7 @@
 
 # Commands
 /trigger rtp
+
 /trigger spawn
 
 # Making changes
